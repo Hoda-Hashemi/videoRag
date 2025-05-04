@@ -1,0 +1,26 @@
+
+numpy
+matplotlib 
+scikit-learn
+Pillow
+tqdm
+torch
+torchvision
+
+sentence-transformers
+transformers
+datasets
+einops
+ftfy
+packaging
+regex
+faiss-cpu
+psycopg2-binary
+pgvector
+rank-bm25
+
+opencv-python
+# GitHub-hosted packages
+git+https://github.com/openai/whisper.git  # For audio transcription
+git+https://github.com/openai/CLIP.git  # For image embedding; prefer GitHub version over PyPI
+

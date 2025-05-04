@@ -1,0 +1,107 @@
+{
+    "1": {
+        "question": "Who is the speaker of the seminar?",
+        "method": "HNSW",
+        "chunk": "slide or a single joint. Exactly. Yeah, one edge here. There is one pair, you and B, which is adjacent.",
+        "distance": 0.16708493726939366,
+        "timestamp": 0.0
+    },
+    "2": {
+        "question": "Which university is Professor Amir Mohad affiliated with?",
+        "method": "HNSW",
+        "chunk": "So anyone can register for the school?",
+        "distance": 0.20533481053544167,
+        "timestamp": 8.0
+    },
+    "3": {
+        "question": "What is the main topic of the seminar?",
+        "method": "TF-IDF",
+        "chunk": "So, hello everyone. Welcome to the PC Seminar. Today we have with us Professor Amir Mohad",
+        "distance": 0.21825870497403976,
+        "timestamp": 12.0
+    },
+    "4": {
+        "question": "What broader area does the seminar introduce?",
+        "method": "TF-IDF",
+        "chunk": "at the state space or what we call the reconfiguration graph of the 15 puzzle. So what does that graph",
+        "distance": 0.24879202248322918,
+        "timestamp": 116.0
+    },
+    "5": {
+        "question": "Who are the collaborators on the project discussed in the seminar?",
+        "method": "TF-IDF",
+        "chunk": "and what was basically the starting point for the project that led us to this paper.",
+        "distance": 0.21334824029242502,
+        "timestamp": 99.0
+    },
+    "6": {
+        "question": "What example problem is used to introduce combinatorial reconfiguration?",
+        "method": "TF-IDF",
+        "chunk": "So the best way I think to introduce is with a familiar example, which is one player games,",
+        "distance": 0.31594773591994624,
+        "timestamp": 206.0
+    },
+    "7": {
+        "question": "What complexity class is discussed in relation to reconfiguration problems?",
+        "method": "TF-IDF",
+        "chunk": "parameterized complexity will be discussed. Those interested can have a look and register for it.",
+        "distance": 0.31858177779664576,
+        "timestamp": 1072.0
+    },
+    "8": {
+        "question": "What is the complexity of token sliding on bipartite graphs?",
+        "method": "IVFFlat",
+        "chunk": "parametrize complexity of token sliding and token jumping on bipartite graphs using the parameter K",
+        "distance": 0.539900805139904,
+        "timestamp": 1299.0
+    },
+    "9": {
+        "question": "What is the complexity of token jumping on bipartite graphs?",
+        "method": "IVFFlat",
+        "chunk": "parametrize complexity of token sliding and token jumping on bipartite graphs using the parameter K",
+        "distance": 0.547104024614436,
+        "timestamp": 1292.0
+    },
+    "10": {
+        "question": "What are some applications of reconfiguration problems mentioned in the seminar?",
+        "method": "TF-IDF",
+        "chunk": "combinatorics, and robotics, and hopefully many more applications to come. But what I would tell you",
+        "distance": 0.21251831725694653,
+        "timestamp": 948.0
+    },
+    "11": {
+        "question": "What programming language was used to implement the token sliding algorithms?",
+        "method": "TF-IDF",
+        "chunk": "to token sliding. So so the open problem is what happens for token sliding on graphs of",
+        "distance": 0.36225967861415664,
+        "timestamp": 0.0
+    },
+    "12": {
+        "question": "What dataset was used to test the reconfiguration models?",
+        "method": "TF-IDF",
+        "chunk": "And that reduction was used to show that independent set remains W1 hard if you exclude C4 up to",
+        "distance": 0.35218636477698445,
+        "timestamp": 0.0
+    },
+    "13": {
+        "question": "When was the paper on token sliding and token jumping published?",
+        "method": "TF-IDF",
+        "chunk": "differently token sliding and token jumping. So they are token sliding is PSPACE complete on",
+        "distance": 0.5271942639169137,
+        "timestamp": 0.0
+    },
+    "14": {
+        "question": "What was the funding source for the research discussed in the seminar?",
+        "method": "TF-IDF",
+        "chunk": "at any level in your research career.",
+        "distance": 0.27247797531736345,
+        "timestamp": 0.0
+    },
+    "15": {
+        "question": "What is the detailed proof of W1 hardness for token sliding?",
+        "method": "HNSW",
+        "chunk": "So that token jumping and token sliding admit kernel with order K squared vertices.",
+        "distance": 0.49262772478543915,
+        "timestamp": 0.0
+    }
+}

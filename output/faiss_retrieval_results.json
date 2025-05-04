@@ -1,0 +1,457 @@
+[
+  {
+    "id": 1,
+    "question": "Who is the speaker of the seminar?",
+    "timestamp": 0.0,
+    "type": "answerable",
+    "retrieved_indices": [
+      0,
+      16,
+      108,
+      1,
+      500
+    ],
+    "distances": [
+      0.4723811447620392,
+      0.46048980951309204,
+      0.4109497666358948,
+      0.4065021276473999,
+      0.3452262878417969
+    ],
+    "retrieved_chunks": [
+      "So, hello everyone. Welcome to the PC Seminar. Today we have with us Professor Amir Mohad",
+      "and Karl Lomar, who is my master's student. All right, so the outline of the talk, it's going",
+      "of the talk is token placement. I call it, but as you will all guess, this is the famous independent",
+      "from American University of Beirut and he'll be talking on the girth and parametrious",
+      "in December in the link has been posted once again in the chat. Some advanced topics in"
+    ],
+    "answer_segments": [
+      "so hello everyone welcome to the pc seminar today we have with us professor amir mohad"
+    ],
+    "reason": ""
+  },
+  {
+    "id": 2,
+    "question": "Which university is Professor Amir Mohad affiliated with?",
+    "timestamp": 8.0,
+    "type": "answerable",
+    "retrieved_indices": [
+      0,
+      1,
+      451,
+      511,
+      16
+    ],
+    "distances": [
+      0.5732411742210388,
+      0.48148617148399353,
+      0.319148987531662,
+      0.25864577293395996,
+      0.23061487078666687
+    ],
+    "retrieved_chunks": [
+      "So, hello everyone. Welcome to the PC Seminar. Today we have with us Professor Amir Mohad",
+      "from American University of Beirut and he'll be talking on the girth and parametrious",
+      "Hi, Amir. Hi. Hi. How are you?",
+      "time to wrap up. So thank you once again, Professor Amitur for not going to give the talk.",
+      "and Karl Lomar, who is my master's student. All right, so the outline of the talk, it's going"
+    ],
+    "answer_segments": [
+      "from american university of beirut and hell be talking on the girth and parametrious"
+    ],
+    "reason": ""
+  },
+  {
+    "id": 3,
+    "question": "What is the main topic of the seminar?",
+    "timestamp": 12.0,
+    "type": "answerable",
+    "retrieved_indices": [
+      22,
+      0,
+      7,
+      500,
+      152
+    ],
+    "distances": [
+      0.48214393854141235,
+      0.47319790720939636,
+      0.4701496362686157,
+      0.4403232932090759,
+      0.4386443495750427
+    ],
+    "retrieved_chunks": [
+      "of the lecture is where I will put some of the technical stuff to show you to give you an idea",
+      "So, hello everyone. Welcome to the PC Seminar. Today we have with us Professor Amir Mohad",
+      "introduction to the area just to show you how many exciting problems and open problems",
+      "in December in the link has been posted once again in the chat. Some advanced topics in",
+      "some advanced topics, what we discuss. So anyone who intends to explore somewhat more complex"
+    ],
+    "answer_segments": [
+      "complexity of token sliding and token jumping thank you for joining us professor over"
+    ],
+    "reason": ""
+  },
+  {
+    "id": 4,
+    "question": "What broader area does the seminar introduce?",
+    "timestamp": 116.0,
+    "type": "answerable",
+    "retrieved_indices": [
+      152,
+      151,
+      0,
+      7,
+      500
+    ],
+    "distances": [
+      0.4915317893028259,
+      0.4499802589416504,
+      0.44401630759239197,
+      0.437505304813385,
+      0.43415629863739014
+    ],
+    "retrieved_chunks": [
+      "some advanced topics, what we discuss. So anyone who intends to explore somewhat more complex",
+      "different from the previous two workshops. First major difference, this will be online. Second is",
+      "So, hello everyone. Welcome to the PC Seminar. Today we have with us Professor Amir Mohad",
+      "introduction to the area just to show you how many exciting problems and open problems",
+      "in December in the link has been posted once again in the chat. Some advanced topics in"
+    ],
+    "answer_segments": [
+      "to be in four sections i will give a gentle introduction to combinatorial reconfiguration"
+    ],
+    "reason": ""
+  },
+  {
+    "id": 5,
+    "question": "Who are the collaborators on the project discussed in the seminar?",
+    "timestamp": 99.0,
+    "type": "answerable",
+    "retrieved_indices": [
+      151,
+      9,
+      0,
+      147,
+      16
+    ],
+    "distances": [
+      0.48838335275650024,
+      0.48393067717552185,
+      0.4377289414405823,
+      0.4098857045173645,
+      0.3964099884033203
+    ],
+    "retrieved_chunks": [
+      "different from the previous two workshops. First major difference, this will be online. Second is",
+      "what we know about them, what we knew about them before we started working on this project,",
+      "So, hello everyone. Welcome to the PC Seminar. Today we have with us Professor Amir Mohad",
+      "and what was basically the starting point for the project that led us to this paper.",
+      "and Karl Lomar, who is my master's student. All right, so the outline of the talk, it's going"
+    ],
+    "answer_segments": [
+      "almost two years ago and its joint work with valentine bartet niko labuske le mandalard"
+    ],
+    "reason": ""
+  },
+  {
+    "id": 6,
+    "question": "What example problem is used to introduce combinatorial reconfiguration?",
+    "timestamp": 206.0,
+    "type": "answerable",
+    "retrieved_indices": [
+      58,
+      29,
+      135,
+      43,
+      14
+    ],
+    "distances": [
+      0.7852387428283691,
+      0.7039190530776978,
+      0.6676376461982727,
+      0.6629258394241333,
+      0.6614670753479004
+    ],
+    "retrieved_chunks": [
+      "were interested in in this area of combinatorial reconfiguration. So a couple of examples of structural",
+      "Hopefully that won't happen too often. All right, so what is combinatorial reconfiguration?",
+      "think about reconfiguration problems as another way of modeling real world algorithmic problems",
+      "combinatorial reconfiguration. So the standard way we would think about the 15 puzzle is by looking",
+      "point out that this is joint work that started back in the combinatorial reconfiguration workshop"
+    ],
+    "answer_segments": [
+      "and the most common one that we use is the 15 puzzle game so for those of you who dont know"
+    ],
+    "reason": ""
+  },
+  {
+    "id": 7,
+    "question": "What complexity class is discussed in relation to reconfiguration problems?",
+    "timestamp": 1072.0,
+    "type": "answerable",
+    "retrieved_indices": [
+      135,
+      501,
+      58,
+      73,
+      210
+    ],
+    "distances": [
+      0.6997230052947998,
+      0.6510279178619385,
+      0.619186520576477,
+      0.6135834455490112,
+      0.6127238273620605
+    ],
+    "retrieved_chunks": [
+      "think about reconfiguration problems as another way of modeling real world algorithmic problems",
+      "parameterized complexity will be discussed. Those interested can have a look and register for it.",
+      "were interested in in this area of combinatorial reconfiguration. So a couple of examples of structural",
+      "this reconfiguration graph. Now on the algorithmic side or the computational side, there's the",
+      "case. All right. So that's it for classical complexity. So now let's move on to parametrize complexity."
+    ],
+    "answer_segments": [
+      "with the pspace class so just a quick note thats as much as you will need to know for this"
+    ],
+    "reason": ""
+  },
+  {
+    "id": 8,
+    "question": "What is the complexity of token sliding on bipartite graphs?",
+    "timestamp": 1299.0,
+    "type": "answerable",
+    "retrieved_indices": [
+      217,
+      251,
+      224,
+      223,
+      219
+    ],
+    "distances": [
+      0.8542536497116089,
+      0.822064995765686,
+      0.7546331882476807,
+      0.7192077040672302,
+      0.6854727268218994
+    ],
+    "retrieved_chunks": [
+      "parametrize complexity of token sliding and token jumping on bipartite graphs using the parameter K",
+      "token sliding on bipartite graphs, because it's quite technical. I don't feel a talk is the",
+      "So token sliding parametrize by the number of tokens on bipartite graphs is W1 hardness.",
+      "which is we were able to show that on bipartite graphs token sliding is in fact W1 hardness.",
+      "bipartite graphs and token jumping is NP. So you were interested to see if basically this is going"
+    ],
+    "answer_segments": [
+      "whereas token sliding is pspace complete which is a strange difference between the behavior"
+    ],
+    "reason": ""
+  },
+  {
+    "id": 9,
+    "question": "What is the complexity of token jumping on bipartite graphs?",
+    "timestamp": 1292.0,
+    "type": "answerable",
+    "retrieved_indices": [
+      217,
+      219,
+      251,
+      192,
+      224
+    ],
+    "distances": [
+      0.8503386378288269,
+      0.7813223600387573,
+      0.7224079966545105,
+      0.6931898593902588,
+      0.6793093085289001
+    ],
+    "retrieved_chunks": [
+      "parametrize complexity of token sliding and token jumping on bipartite graphs using the parameter K",
+      "bipartite graphs and token jumping is NP. So you were interested to see if basically this is going",
+      "token sliding on bipartite graphs, because it's quite technical. I don't feel a talk is the",
+      "if you restrict yourself to those graphs, it turns out that token jumping is NP complete,",
+      "So token sliding parametrize by the number of tokens on bipartite graphs is W1 hardness."
+    ],
+    "answer_segments": [
+      "if you restrict yourself to those graphs it turns out that token jumping is np complete"
+    ],
+    "reason": ""
+  },
+  {
+    "id": 10,
+    "question": "What are some applications of reconfiguration problems mentioned in the seminar?",
+    "timestamp": 948.0,
+    "type": "answerable",
+    "retrieved_indices": [
+      135,
+      166,
+      58,
+      185,
+      17
+    ],
+    "distances": [
+      0.69669109582901,
+      0.6431177258491516,
+      0.6070630550384521,
+      0.602634072303772,
+      0.5916314721107483
+    ],
+    "retrieved_chunks": [
+      "think about reconfiguration problems as another way of modeling real world algorithmic problems",
+      "when you start to think about reconfiguration problems, because if you think about reconfiguration",
+      "were interested in in this area of combinatorial reconfiguration. So a couple of examples of structural",
+      "for reconfiguration problems, at least for token sliding and jumping, which is the two problems",
+      "to be in four sections. I will give a gentle introduction to combinatorial reconfiguration,"
+    ],
+    "answer_segments": [
+      "well and they have been used in statistical physics quantum computing and complexity theory"
+    ],
+    "reason": ""
+  },
+  {
+    "id": 11,
+    "question": "What programming language was used to implement the token sliding algorithms?",
+    "timestamp": 0.0,
+    "type": "unanswerable",
+    "retrieved_indices": [
+      157,
+      212,
+      241,
+      146,
+      422
+    ],
+    "distances": [
+      0.6018474102020264,
+      0.6002613306045532,
+      0.5911915302276611,
+      0.582169234752655,
+      0.5816704630851746
+    ],
+    "retrieved_chunks": [
+      "token jumping, token sliding, and a little bit about classical complexity. I know everybody",
+      "token sliding. So there's the obvious parameter would be the number of tokens. So one of the obvious",
+      "sliding was W1 hard, but we were not able to determine the complexity of token jumping. So then we",
+      "the token jumping and token sliding problems, what we know about them in terms of classical complexity,",
+      "So I have a question about token sliding. Yes."
+    ],
+    "answer_segments": [],
+    "reason": "The seminar discusses algorithms and complexity but does not mention any specific programming language used for implementation."
+  },
+  {
+    "id": 12,
+    "question": "What dataset was used to test the reconfiguration models?",
+    "timestamp": 0.0,
+    "type": "unanswerable",
+    "retrieved_indices": [
+      58,
+      73,
+      126,
+      135,
+      29
+    ],
+    "distances": [
+      0.5159628391265869,
+      0.4934769868850708,
+      0.4840957224369049,
+      0.4781029224395752,
+      0.4574294686317444
+    ],
+    "retrieved_chunks": [
+      "were interested in in this area of combinatorial reconfiguration. So a couple of examples of structural",
+      "this reconfiguration graph. Now on the algorithmic side or the computational side, there's the",
+      "So now we have two different reconfiguration graphs we can think about. We can think about the",
+      "think about reconfiguration problems as another way of modeling real world algorithmic problems",
+      "Hopefully that won't happen too often. All right, so what is combinatorial reconfiguration?"
+    ],
+    "answer_segments": [],
+    "reason": "The seminar focuses on theoretical aspects of reconfiguration problems and does not discuss any specific datasets used for testing."
+  },
+  {
+    "id": 13,
+    "question": "When was the paper on token sliding and token jumping published?",
+    "timestamp": 0.0,
+    "type": "unanswerable",
+    "retrieved_indices": [
+      8,
+      157,
+      422,
+      209,
+      2
+    ],
+    "distances": [
+      0.6852585077285767,
+      0.6411538124084473,
+      0.630384087562561,
+      0.6162987947463989,
+      0.6135696172714233
+    ],
+    "retrieved_chunks": [
+      "are there. And then I will talk more about token jumping and token sliding, specifically",
+      "token jumping, token sliding, and a little bit about classical complexity. I know everybody",
+      "So I have a question about token sliding. Yes.",
+      "reasons why we feel that token sliding is harder usually than token jumping. But it's not always the",
+      "complexity of token sliding and token jumping. Thank you for joining us Professor. Over"
+    ],
+    "answer_segments": [],
+    "reason": "The seminar mentions the project and results but does not specify the publication date of the paper."
+  },
+  {
+    "id": 14,
+    "question": "What was the funding source for the research discussed in the seminar?",
+    "timestamp": 0.0,
+    "type": "unanswerable",
+    "retrieved_indices": [
+      147,
+      246,
+      151,
+      144,
+      0
+    ],
+    "distances": [
+      0.42343881726264954,
+      0.36940184235572815,
+      0.3610273599624634,
+      0.3306339681148529,
+      0.3272028863430023
+    ],
+    "retrieved_chunks": [
+      "and what was basically the starting point for the project that led us to this paper.",
+      "is not part of our paper. This was known prior to our paper. So any questions about the results?",
+      "different from the previous two workshops. First major difference, this will be online. Second is",
+      "at any level in your research career.",
+      "So, hello everyone. Welcome to the PC Seminar. Today we have with us Professor Amir Mohad"
+    ],
+    "answer_segments": [],
+    "reason": "The seminar does not mention any details about the funding source for the research."
+  },
+  {
+    "id": 15,
+    "question": "What is the detailed proof of W1 hardness for token sliding?",
+    "timestamp": 0.0,
+    "type": "unanswerable",
+    "retrieved_indices": [
+      223,
+      220,
+      224,
+      295,
+      329
+    ],
+    "distances": [
+      0.799091100692749,
+      0.7891234159469604,
+      0.7792119979858398,
+      0.7506347894668579,
+      0.7484508156776428
+    ],
+    "retrieved_chunks": [
+      "which is we were able to show that on bipartite graphs token sliding is in fact W1 hardness.",
+      "to give us W1 hardness for token sliding and fptness for token jumping.",
+      "So token sliding parametrize by the number of tokens on bipartite graphs is W1 hardness.",
+      "So how do we use this for showing hardness of token sliding and token jumping? And let's focus",
+      "which will give you W1 hardness for both token sliding as well as token jumping."
+    ],
+    "answer_segments": [],
+    "reason": "The seminar mentions W1 hardness but states that the proof is too technical for the talk and is not provided."
+  }
+]

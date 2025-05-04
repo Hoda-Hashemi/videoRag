@@ -1,0 +1,123 @@
+[
+    {
+        "id": 1,
+        "question": "Who is the speaker of the seminar?",
+        "timestamp": 0.0,
+        "type": "answerable",
+        "answer_segments": [
+            "so hello everyone welcome to the pc seminar today we have with us professor amir mohad"
+        ]
+    },
+    {
+        "id": 2,
+        "question": "Which university is Professor Amir Mohad affiliated with?",
+        "timestamp": 8.0,
+        "type": "answerable",
+        "answer_segments": [
+            "from american university of beirut and hell be talking on the girth and parametrious"
+        ]
+    },
+    {
+        "id": 3,
+        "question": "What is the main topic of the seminar?",
+        "timestamp": 12.0,
+        "type": "answerable",
+        "answer_segments": [
+            "complexity of token sliding and token jumping thank you for joining us professor over"
+        ]
+    },
+    {
+        "id": 4,
+        "question": "What broader area does the seminar introduce?",
+        "timestamp": 116.0,
+        "type": "answerable",
+        "answer_segments": [
+            "to be in four sections i will give a gentle introduction to combinatorial reconfiguration"
+        ]
+    },
+    {
+        "id": 5,
+        "question": "Who are the collaborators on the project discussed in the seminar?",
+        "timestamp": 99.0,
+        "type": "answerable",
+        "answer_segments": [
+            "almost two years ago and its joint work with valentine bartet niko labuske le mandalard"
+        ]
+    },
+    {
+        "id": 6,
+        "question": "What example problem is used to introduce combinatorial reconfiguration?",
+        "timestamp": 206.0,
+        "type": "answerable",
+        "answer_segments": [
+            "and the most common one that we use is the 15 puzzle game so for those of you who dont know"
+        ]
+    },
+    {
+        "id": 7,
+        "question": "What complexity class is discussed in relation to reconfiguration problems?",
+        "timestamp": 1072.0,
+        "type": "answerable",
+        "answer_segments": [
+            "with the pspace class so just a quick note thats as much as you will need to know for this"
+        ]
+    },
+    {
+        "id": 8,
+        "question": "What is the complexity of token sliding on bipartite graphs?",
+        "timestamp": 1299.0,
+        "type": "answerable",
+        "answer_segments": [
+            "whereas token sliding is pspace complete which is a strange difference between the behavior"
+        ]
+    },
+    {
+        "id": 9,
+        "question": "What is the complexity of token jumping on bipartite graphs?",
+        "timestamp": 1292.0,
+        "type": "answerable",
+        "answer_segments": [
+            "if you restrict yourself to those graphs it turns out that token jumping is np complete"
+        ]
+    },
+    {
+        "id": 10,
+        "question": "What are some applications of reconfiguration problems mentioned in the seminar?",
+        "timestamp": 948.0,
+        "type": "answerable",
+        "answer_segments": [
+            "well and they have been used in statistical physics quantum computing and complexity theory"
+        ]
+    },
+    {
+        "id": 11,
+        "question": "What programming language was used to implement the token sliding algorithms?",
+        "type": "unanswerable",
+        "reason": "The seminar discusses algorithms and complexity but does not mention any specific programming language used for implementation."
+    },
+    {
+        "id": 12,
+        "question": "What dataset was used to test the reconfiguration models?",
+        "type": "unanswerable",
+        "reason": "The seminar focuses on theoretical aspects of reconfiguration problems and does not discuss any specific datasets used for testing."
+    },
+    {
+        "id": 13,
+        "question": "When was the paper on token sliding and token jumping published?",
+        "type": "unanswerable",
+        "reason": "The seminar mentions the project and results but does not specify the publication date of the paper."
+    },
+    {
+        "id": 14,
+        "question": "What was the funding source for the research discussed in the seminar?",
+        "type": "unanswerable",
+        "reason": "The seminar does not mention any details about the funding source for the research."
+    },
+    {
+        "id": 15,
+        "question": "What is the detailed proof of W1 hardness for token sliding?",
+        "type": "unanswerable",
+        "reason": "The seminar mentions W1 hardness but states that the proof is too technical for the talk and is not provided."
+    }
+]
+
