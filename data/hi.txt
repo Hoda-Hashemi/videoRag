@@ -1,8 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
-<plist version="1.0">
-<dict>
-	<key>URL</key>
-	<string>vscode-vfs://github/Hoda-Hashemi/videoRag/data/hi.txt</string>
-</dict>
-</plist>
+Add the following:
+-audio.mp3 (i used iMovie to extract the audio)
+-video.mp4 (video without sound)
+-originalVideo.mp4 ( https://www.youtube.com/watch?v=dARr3lGKwk8)
