@@ -4,26 +4,34 @@ This repository contains the final assignment for the CMPS 396AH course. The pro
 
 The model implements five retrieval methods and is evaluated using a golden test set comprising 10 answerable queries and 5 unanswerable queries. The implementation is written in Python, and a Streamlit interface is provided to visualize the workflow.
 
+### **all-MiniLM-L6-v2 Embedding Model**  
 
+#### **Key Attributes**  
+- **Max Tokens**:  
+  - Supports **256 tokens** per input, ideal for short/medium text (e.g., captions, queries, or video snippets) to balance context and efficiency.  
+
+- **Parameters**:  
+  - Lightweight **~22 million parameters**, ensuring fast inference and low memory usage compared to larger models (e.g., BERT/SBERT).
+  - 
 ## Retrieval Techniques
 
 ### Semantic Retrieval
 
-- **FAISS**:
+- **FAISS (Facebook AI Similarity Search)**:
   - FAISS: performs fast similarity search by indexing dense vectors in optimized data structures, enabling rapid retrieval of semantically similar video segments based on query embeddings.
 
 - **PostgreSQL with pgvector**:
-  - **IVF-FLAT Index**:
+  - **IVF-FLAT Index (Inverted File with FLAT)**:
     - The IVF-FLAT index in pgvector partitions vectors into clusters, searching only the nearest clusters to efficiently retrieve similar vectors from a PostgreSQL database.
-  - **HNSW Index**:
+  - **HNSW Index (Hierarchical Navigable Small World)**:
     - uses hierarchical navigable small world graphs to enable high-accuracy, low-latency similarity search by navigating through layered graph structures in pgvector.
 
 ### Lexical Retrieval
 
-- **TF-IDF**:
+- **TF-IDF (Term Frequency-Inverse Document Frequency)**:
   - Ranks video segments based on term frequency and rarity.
 
-- **BM25**:
+- **BM25 (Best Match 25)**:
   - Advanced ranking with term saturation and length normalization.
 
 ### Running the Files
