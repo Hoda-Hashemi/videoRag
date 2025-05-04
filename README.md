@@ -25,3 +25,33 @@ The model implements five retrieval methods and is evaluated using a golden test
 
 - **BM25**:
   - Advanced ranking with term saturation and length normalization.
+
+### Running the Files
+
+To execute the VideoRAG pipeline and visualize results, follow these steps:
+
+1. **Install Dependencies**:
+   Install the required Python libraries and run the setup script:
+   ```bash
+   pip install -r requirements.txt
+   bash dependencies.sh
+2. Add Files to Data Directory: Place the required audio and video files in the data directory, following the instructions in hi.txt.
+3. Navigate to the Source Directory: Change to the src directory, which contains the main scripts:
+   ```bash
+   cd src
+4. Run the Main Script: Execute the main.py RAG pipeline
+5. Generate Plots: Run the final.py script to create visualization plots
+
+### Race 
+![Race](src/cosine_similarity_15_subplots_lines.png)
+
+### Streamlit interface
+1. **Navigate to the Directory**:
+   Ensure you are in the root directory of the repository (where `app.py` is located). If not, navigate there:
+   ```bash
+   cd src/app.py
+
+  2. run inside the terminal
+  ```bash
+  streamlit run app.py
+
